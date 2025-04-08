@@ -11,6 +11,7 @@ RUN apt-get update && \
 
 RUN mkdir -p /var/www/html
 COPY index.html /var/www/html/index.html
+COPY style.css /usr/share/nginx/html
 
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
