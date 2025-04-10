@@ -6,11 +6,11 @@
 .c {
     width: 250px;
     height: 150px;
-    border: palevioletred solid 2px ;
+    border: rgb(90, 163, 223) solid 2px ;
     border-radius: 10px;
     margin: 10px;
     position: relative;
-    background-color: pink;
+    background-color: rgb(47, 106, 154);
     overflow: hidden;              
     display: flex;
     align-items: center;
@@ -57,4 +57,16 @@
     font-weight: bold;
     transition: opacity 0.3s ease; 
     
+  }
+
+
+  img{
+    padding: top;
+    display: flex;
+    width: 50%;
+    margin: auto;
+  }
+  body{
+    color: white;
+    background-image: url(fundo.jpg)  ;
   }
